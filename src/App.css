@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+table {
+  border: solid 1px black;
+}
+
+thead {
+  font-weight: bold;
+  text-decoration-line: underline;
+  background-color: rgb(122, 152, 77) !important;
+}
+
+
+tr {
+  border: 1px solid #ddd;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2ba;
+}
+
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+
+tr:hover {
+  background-color: #ddd;
+}
+
+#contactCard {
+  border: black 2px solid;
+}
